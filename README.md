@@ -20,7 +20,7 @@ See the [documentation](docs/index.md) for details
 The enhancement requests and issues should be reported here at Github portal only.
 
 ## Issues
-For issues relating specifically to the Dockerfiles and scripts, please use the [GitHub issue tracker](issues)
+For issues relating specifically to the Dockerfiles and scripts, please use the [GitHub issue tracker](https://github.com/HCL-TECH-SOFTWARE/Notesiniplaybook/issues)
 
 ## Contributing
 We welcome contributions following [our guidelines](CONTRIBUTING.md).
