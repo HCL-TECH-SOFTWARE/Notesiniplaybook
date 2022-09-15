@@ -134,6 +134,8 @@ category, then you need to create separate user settings document for each user.
 23. The business user can also access the User Settings documents from the “My Documents” view. It
     is in Active status and shows the Enabled Date/Time.
 
+![image](https://user-images.githubusercontent.com/108002256/190482014-9bf04a7d-6035-472e-9c69-41e677970f80.png)
+
 24. The business user will open this User Settings document and clicks on “Disable” button to disable
     the client debugging. It will remove the INI parameters corresponding to the category from the
     user’s local notes.ini file which was added earlier.
