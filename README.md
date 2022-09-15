@@ -12,9 +12,9 @@ The target audience of this application are the administrators and the LOB users
 ## Relevant versions:
 The application can run on any version of Notes client starting from v9.0.x and above.
 
-## Documentation & Quickstart
+## Documentation
 
-See the [documentation](docs/index.md) and the [Quickstart](docs/quickstart.md) for details
+See the [documentation](docs/index.md) for details
 
 ## Enhancement requests and issues:
 The enhancement requests and issues should be reported here at Github portal only.
