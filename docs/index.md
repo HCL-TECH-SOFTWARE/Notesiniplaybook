@@ -52,15 +52,11 @@ and business users. The following steps explains how to use this application.
     “Create New” button. It opens the following Form.
     
 10. Click on “User Name(s)” field label and choose the business user’s name from the Address Book
-    or just start typing in the username in the field and press Tab key once the username is auto
-
-
-```
-populated. You can also add multiple users in this field. The default maximum user names that
+    or just start typing in the username in the field and press Tab key once the username is auto populated. You can also add multiple users in this field. The default maximum user names that
 can be submitted at a time is set to 25. You should not add Group name in this field. If multiple
 users are selected at a time, then same category will be applied to all. If each user needs separate
 category, then you need to create separate user settings document for each user.
-```
+
 11. You can change the default maximum user names value by editing profile document named
     “AppProfile”. Create a formula agent with following formula, set Target to None in Agent
     Properties, save agent and run this agent from Action menu in Notes client. It will open the
@@ -72,53 +68,54 @@ category, then you need to create separate user settings document for each user.
 12. Click on “Category” field and select a category from the Listbox for which you need to do Notes
     client debugging.
 
-
 13. You can add some comments or support case number (if any) in the “Comments” field. This is an
     optional field and can be left blank.
+
 14. Click on “Create User Documents” button. When you submit this form, it creates a user settings
     document for the selected user and category. It also triggers an Email to the business user with
     doc link to the User Settings document. If multiple users are added at a time, then separate User
     Settings documents are created and separate Emails are triggered to each user which were added
     in the Form.
-15. You can check the created User Settings document in the “All User Docs” view.
 
+15. You can check the created User Settings document in the “All User Docs” view.
 
 16. The business user will receive an Email with subject format “Notes Client Troubleshooting for
     Category_Name” and the body contains a doc link to the User Settings document.
+
 17. When the business user clicks on the doc link, it opens the User Settings document in the
     database.
-
 
 18. The business user clicks on the “Enable” button to enable the client debugging for the selected
     category. A message box pops up saying “Client debugging has been enabled. Please restart your
     Notes client”. The INI parameters are now added to the user’s local notes.ini file. The business
     user should restart the Notes client, so that the INI parameters can take effect.
+
 19. Now the Admin or business user can reproduce the issue on Notes client and collect the logs for
     the support.
+
 20. Once the logs are collected, business user can disable the INI debugs by going back to the same
     User settings document through doc link provided in the Email or by going to the “INI Playbook”
     database in the “My Documents” view and opening the User Settings document.
+
 21. Alternatively, Admin can send an email notification to the business user to disable the settings.
     Admin needs to open the User Settings Document and click on “Send Mail to Disable” button.
 
-
 22. This will trigger an email to the business user with doc link of User Settings document in the mail
     body.
+
 23. The business user can also access the User Settings documents from the “My Documents” view. It
     is in Active status and shows the Enabled Date/Time.
+
 24. The business user will open this User Settings document and clicks on “Disable” button to disable
     the client debugging. It will remove the INI parameters corresponding to the category from the
     user’s local notes.ini file which was added earlier.
 
-
 25. A message box pops up saying “Client debugging has been disabled. Please restart your Notes
     client”. The business user should restart the Notes client, so that the removal of INI parameters
     can take effect.
+
 26. The status of the disabled category changes to “Obsolete” and the Disabled Date/Time is
     captured.
 
-```
 This completes the manual of the INI Playbook application.
-```
-
 
