@@ -9,6 +9,8 @@ and business users. The following steps explains how to use this application.
 
 1. The Administrator user should have the “Admin” role enabled in the database ACL. The business
     users shouldn’t have the “Admin” role enabled.
+    ![image](https://user-images.githubusercontent.com/108002256/190377814-5ef75d7a-75f4-4669-9552-c111c27fa3f8.png)
+
 2. You need to deploy this database on Domino server and sign it with a trusted ECL Signer ID, so
     that the business users don’t get the ECL alert when they use this database on Notes client.
 3. Login with Administrator ID on Notes client and open the database. You will see the following
