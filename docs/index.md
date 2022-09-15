@@ -9,17 +9,21 @@ and business users. The following steps explains how to use this application.
 
 1. The Administrator user should have the “Admin” role enabled in the database ACL. The business
     users shouldn’t have the “Admin” role enabled.
+    
     ![image](https://user-images.githubusercontent.com/108002256/190377814-5ef75d7a-75f4-4669-9552-c111c27fa3f8.png)
 
 2. You need to deploy this database on Domino server and sign it with a trusted ECL Signer ID, so
     that the business users don’t get the ECL alert when they use this database on Notes client.
+    
 3. Login with Administrator ID on Notes client and open the database. You will see the following
     screen.
-
+    
+    ![image](https://user-images.githubusercontent.com/108002256/190479718-e3af7a2c-2a5c-4761-b3de-e79d9f1ba28b.png)
 
 4. There are four tabs on the left side frame for Administrator. The first two (‘Welcome’ and ‘My
     Documents’) are visible to all business users. The last two (‘All User Docs’ and ‘INI Settings’) is
     kept hidden to business users. Administrator can see all the four tabs.
+    
 5. **All User Docs** – Click on this tab to open “All User Docs” view in the centre frame. This view
     shows the User Settings documents of all users that are created by Administrator. The
     Administrator can check the category of client debugging, its status and enabled / disabled date
@@ -29,23 +33,24 @@ and business users. The following steps explains how to use this application.
     select the category for which client debugging needs to be done. You will see this in detail in later
     steps.
 
-
 6. **INI Settings** – This is a lookup view which stores the category and its related INI debug
     parameters which will be used for client debugging purpose. The category column is pulled into a
     Listbox on the Form which is created using “Create New” button on the “All User Docs” view.
     Click on any document to preview the information in the right-side frame. Some categories are
     already pre-stored in this database.
+    
 7. You can also create your own category by clicking on “Create New” button on the “INI Settings”
     view. A sample is shown below. To add multiple parameters in same document, press ENTER key
     after typing each parameter as shown below.
-
 
 8. **My Documents** – This view shows the User Settings documents of the current logged-in user. The
     business user can check his / her user settings documents here with category, status and enabled
     / disabled date and time. The business user can also enable / disable the client debugs by editing
     the document and clicking on Enable / Disable button.
+    
 9. To create a User Settings document for Notes client debugging, Go to “All User Docs” and click on
     “Create New” button. It opens the following Form.
+    
 10. Click on “User Name(s)” field label and choose the business user’s name from the Address Book
     or just start typing in the username in the field and press Tab key once the username is auto
 
