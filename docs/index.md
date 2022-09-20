@@ -1,13 +1,13 @@
-# INI Playbook Manual
+# Notes INI Playbook Documentation
 
 ## Overview:
 
-The INI Playbook application helps the Administrators and business users to enable and disable the
+The Notes INI Playbook application helps the Administrators and line of business users to enable and disable the
 INI debug parameters on the user’s Notes client for the troubleshooting purpose. It also helps to track
 the status of Notes client debugging of all users. The application is easy to use for both Administrators
-and business users. The following steps explains how to use this application.
+and line of business users. The following steps explains how to use this application.
 
-1. The Administrator user should have the “Admin” role enabled in the database ACL. The business
+1. The Administrator user should have the “Admin” role enabled in the database ACL. The line of business
     users shouldn’t have the “Admin” role enabled.
     
     ![image](https://user-images.githubusercontent.com/108002256/190377814-5ef75d7a-75f4-4669-9552-c111c27fa3f8.png)
@@ -153,4 +153,4 @@ category, then you need to create separate user settings document for each user.
 
 ![image](https://user-images.githubusercontent.com/108002256/190481373-4527ad9c-5567-40e5-960d-d265631c5e2f.png)
 
-This completes the manual of the INI Playbook application.
+This completes the documentation of Notes INI Playbook application.
